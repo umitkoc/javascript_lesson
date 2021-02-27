@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+}
+body{
+    background-color: #262626;
+    height: 100vh;
+    font-size: 8rem;
+    width: 100%;
+
+}
+.container{
+    background-color: rgb(124, 77, 23);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+
+  
+}
+input{
+    width: 100%;
+    background-color: #979292ad;
+    text-align: center;
+    justify-content: center;
+    font-size: 400px;
+    height: 90vh;
+}
