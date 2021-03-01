@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
     overflow: hidden;
     color: aliceblue;
 }
@@ -18,6 +18,7 @@ body {
 h3 {
     margin-bottom: 25px;
     font-size: 75px;
+    opacity: 0.8;
 }
 
 .container {
@@ -28,6 +29,7 @@ h3 {
     fill: transparent;
     stroke: #ccc;
     stroke-width: 4;
+    opacity: 0.7;
 }
 
 .word-svg {
@@ -37,6 +39,7 @@ h3 {
 }
 
 .keywords {
+    opacity: 0.7;
     position: absolute;
     left: 80%;
     top: 20%;
@@ -61,7 +64,7 @@ h3 {
 
 #word {
     list-style: none;
-    font-size: 80px;
+    font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     align-items: center;
@@ -72,4 +75,30 @@ h3 {
     border-bottom: 4px solid #ccc;
     margin-left: 25px;
     text-transform: uppercase;
+}
+
+#card {
+    position: absolute;
+    background-color:#1b1b1b;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 180px;
+}
+.point{
+    position: absolute;
+    font-size: 35px;
+    color: #ccc;
+    left: 10%;
+    top: 10%;
+    opacity: 0.4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }

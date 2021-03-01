@@ -9,6 +9,7 @@
 </head>
 <body onkeydown="Answer(event)">
     <h3>H A N G M A N</h3>
+   
     <div class="container">
         <svg height='500' width='400' class="grafik">
            <line x1='100' y1='0' x2='300' y2='0' class="item"/>
@@ -24,7 +25,7 @@
         </svg>
         <div class="keywords">
             <h2>
-                Letters
+                Letters    
             </h2>
             <ul id="ul">
                
@@ -35,6 +36,18 @@
     <ul id="word">
         
     </ul>
+    <audio hidden src="music.mp3" id="music" controls style="display:none;"></audio>
+    <div id="card">
+        <h1> Play </h1>
+        <div class="card-stop">
+
+        </div>
+    </div>
+    <div class="point">
+        Point:<span id="point"></span>
+    </div>
+
+
 
     <script src="main.js"></script>
 </body>
