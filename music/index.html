@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+</head>
+<body>
+    <div class="container">
+
+        <div id="card">
+            
+            <div id="img"></div>
+            <div id="music-title">Lorem ipsum</div>
+            <audio  src="music.mp3" id="music" ></audio>
+            <button id="btn_back">
+                <i class="fas fa-fast-backward fa-2x"></i>
+            </button>
+            <button id="btn_play">
+                <i class="fas fa-play fa-2x"></i>
+            </button>
+            <button id="btn_next">
+                <i class="fas fa-fast-forward fa-2x"></i>
+            </button>
+            
+        </div>
+        <input type="range"  id="range_volume" min="0" max="100" value="25" onchange="volume_change()">
+        <input type="range"  id="duration_music" min="0" max="100" onchange="duration_music()" value="65">
+        <button id="like"><i class="fas fa-thumbs-up fa-2x"></i></button>
+        <div id="volume">
+            <i  class="fas fa-volume-up fa-2x"></i>
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
